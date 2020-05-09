@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/total_books_collection"
+            android:title="@string/total_books"
+            android:icon="@drawable/bookcollection"/>
+        <item
+            android:id="@+id/total_books_borrowed"
+            android:title="@string/books_borrowed"
+            android:icon="@drawable/borrow" />
+        <item
+            android:id="@+id/new_plan"
+            android:title="@string/book_plan"
+            android:icon="@drawable/plan"/>
+
+    </group>
+
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/password"
+                android:title="@string/update_password"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+</menu>
